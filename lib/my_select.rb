@@ -1,3 +1,17 @@
 def my_select(collection)
- # your code here!
+  if collection == []
+    raise "This block should not run!"
+    elsif block_given?
+      i = 0
+      new_array = []
+      
+      while i < array.length do
+        new_array << yield(array[i])
+        i += 1
+      end
+      new array
+    else
+      nil
+    end
+  end
 end
