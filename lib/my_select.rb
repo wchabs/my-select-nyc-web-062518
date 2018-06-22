@@ -12,6 +12,5 @@ def my_select(collection)
       new array
     else
       nil
-    end
   end
 end
