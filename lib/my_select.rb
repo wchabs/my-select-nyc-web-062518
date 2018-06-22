@@ -9,7 +9,7 @@ def my_select(collection)
         new_array << yield(collection[i])
         i += 1
       end
-      new array
+      new_array
     else
       nil
   end
